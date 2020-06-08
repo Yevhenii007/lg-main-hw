@@ -1,0 +1,155 @@
+h3,
+h2 {
+  padding: 0;
+  margin: 5px 0;
+}
+
+button {
+  border-radius: 5px;
+}
+
+.form_choose,
+.edited_text,
+.form_text {
+  width: 700px;
+  min-height: 200px;
+  color: black;
+  background-color: #dbdbdb;
+  padding: 10px 20px;
+  border: 1px solid #949494;
+  border-radius: 5px;
+  margin: auto;
+}
+
+.content_choose,
+.edited_text {
+  margin-top: 30px;
+  margin-bottom: 10px;
+  font-size: 16px;
+}
+
+.form_text {
+  margin-top: 10px;
+}
+
+.edit_style_buttons {
+  text-align: center;
+}
+
+.text_area {
+  width: 700px;
+  height: 150px;
+}
+
+.edit {
+  background-color: #fcff39;
+}
+
+.style {
+  background-color: #37d7ff;
+  color: white;
+}
+
+.add {
+  background-color: #e75555;
+}
+
+.create_table,
+.save {
+  background-color: #32bb1f;
+  color: white;
+}
+
+.create_table {
+  width: 100px;
+  height: 30px;
+}
+
+.edit,
+.style,
+.add,
+.save {
+  width: 70px;
+  height: 30px;
+}
+
+.block_textarea,
+.block_style {
+  display: none;
+}
+
+.block_style_content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.style_form {
+  width: 290px;
+  display: inline-block;
+}
+
+.styles {
+  margin: 5px 0;
+}
+
+.style_colors_text,
+.style_colors_background {
+  display: none;
+  margin: auto;
+}
+
+.style_colors_content {
+  width: 150px;
+  height: 150px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-flow: wrap;
+      flex-flow: wrap;
+}
+
+.color_block_text,
+.color_block_background {
+  width: 50px;
+  height: 50px;
+}
+
+select[name="type_of_marks"] {
+  margin: 5px;
+  width: 564px;
+  padding: 5px;
+}
+
+input[type="text"] {
+  margin: 5px;
+  width: 550px;
+  padding: 5px;
+}
+
+input[name="border_width"],
+select[name="border_color"],
+select[name="border_type"] {
+  width: 100px;
+  padding: 5px;
+}
+
+.table {
+  display: none;
+}
+
+.list {
+  display: none;
+}
+
+.content_text {
+  display: block;
+}
+
+.content_choose {
+  display: none;
+}
+
+table {
+  border-spacing: 0;
+}

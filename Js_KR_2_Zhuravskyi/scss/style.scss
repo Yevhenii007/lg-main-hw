@@ -1,0 +1,360 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+.selector-for-some-widget {
+	box-sizing: content-box;
+}
+
+.container {
+}
+.content-buttons {
+	background-color: gray;
+	padding: 20px 0;
+	display: flex;
+	justify-content: center;
+}
+.general {
+	width: 100%;
+	max-width: 50px;
+	height: 40px;
+	border-radius: 10px;
+	outline: black;
+	position: relative;
+	display: flex;
+	justify-content: center;
+}
+.user {
+	background-color: rgb(206, 215, 228);
+}
+.user,
+.background-color,
+.striking,
+.right {
+	margin: 0px 20px 0px 0px;
+}
+.font-weight {
+	font-weight: bold;
+}
+.font-style {
+	font-style: italic;
+}
+.underlining {
+	text-decoration: underline;
+}
+.striking-out {
+	text-decoration: line-through;
+}
+
+
+.left {
+	text-align: left;
+}
+.center {
+	text-align: center;
+}
+.right {
+	text-align: right;
+}
+.font-family {
+}
+.font-size {
+}
+.color {
+}
+
+.lock {
+}
+.content-text {
+	padding: 30px 40px;
+}
+
+p {
+	padding: 10px;
+}
+
+i {
+	font-size: 20px;
+}
+.uil-text-fields,
+.uil-text {
+	width: 18px;
+}
+.uil-angle-down {
+	width: 25px;
+}
+
+ul {
+	z-index: 100;
+	position: absolute;
+	top: 40px;
+	right: 0px;
+	list-style: none;
+	text-align: left;
+	border: solid lightgray 1px;
+	border-radius: 5px;
+	background-color: white;
+}
+
+
+
+.choose__tabs,
+.colors__general-first,
+.colors__general-second,
+.images__general,
+button,
+li {
+	cursor: pointer;
+}
+
+
+
+li {
+	padding: 10px 20px;
+	background-color: #fff;
+	width: 125px;
+	border-radius: 5px;
+}
+li:hover {
+	background-color: rgb(245, 245, 245);
+}
+
+.alert {
+	position: absolute;
+	top: 0;
+	left: 0;
+	background-color: rgba(69, 90, 134, 0.5);
+	width: 100%;
+	height: 100%;
+	&__content {
+		position: relative;
+		top: -20px;
+		background-color: #fff;
+		margin: 60px auto 0px;
+		width: max-content;
+		border: solid 1px lightgray;
+	}
+}
+
+.sign-in-title,
+.choose {
+	line-height: 40px;
+	width: 380px;
+	border-bottom: solid 1px rgb(241, 241, 241);
+	padding: 5px 15px;
+	display: flex;
+	justify-content: space-between;
+
+	&__tabs {
+		color: dodgerblue;
+		padding: 10px 15px;
+	}
+	&__colors {
+		color: gray;
+		border-top: solid 1px rgb(241, 241, 241);
+		border-right: solid 1px rgb(241, 241, 241);
+		border-left: solid 1px rgb(241, 241, 241);
+		// border-bottom: solid 1px rgb(241, 241, 241);
+	}
+	&__images {
+		border-bottom: solid 1px rgb(241, 241, 241);
+	}
+	&__files {
+		border-bottom: solid 1px rgb(241, 241, 241);
+	}
+	&__empty {
+		border-bottom: solid 1px rgb(241, 241, 241);
+		width: 100%;
+	}
+}
+.tabs {
+	display: flex;
+}
+.uil-times {
+	position: inherit;
+	left: -100px;
+}
+
+.cancel {
+	border-width: 1px;
+	background-color: #fff;
+	width: 35px;
+	height: 35px;
+	border-radius: 50%;
+	outline: medium;
+}
+.colors {
+	padding: 15px;
+	display: flex;
+	flex-flow: wrap;
+	width: 380px;
+	&__general-second,
+	&__general-first {
+		width: 50px;
+		height: 50px;
+		border-radius: 5px;
+		margin: 2px 2px;
+	}
+}
+.aliceblue {
+	background-color: aliceblue;
+}
+.antiquewhite {
+	background-color: antiquewhite;
+}
+.aqua {
+	background-color: aqua;
+}
+.aquamarine {
+	background-color: aquamarine;
+}
+.azure {
+	background-color: azure;
+}
+.blue {
+	background-color: blue;
+}
+.blueviolet {
+	background-color: blueviolet;
+}
+
+.brown {
+	background-color: brown;
+}
+.burlywood {
+	background-color: burlywood;
+}
+.cadetblue {
+	background-color: cadetblue;
+}
+.chartreuse {
+	background-color: chartreuse;
+}
+.chocolate {
+	background-color: chocolate;
+}
+.coral {
+	background-color: coral;
+}
+.cornflowerblue {
+	background-color: cornflowerblue;
+}
+
+.darkblue {
+	background-color: darkblue;
+}
+.darkcyan {
+	background-color: darkcyan;
+}
+.darkgoldenrod {
+	background-color: darkgoldenrod;
+}
+.darkgray {
+	background-color: darkgray;
+}
+.darkgreen {
+	background-color: darkgreen;
+}
+.black {
+	background-color: black;
+}
+.darkmagenta {
+	background-color: darkmagenta;
+}
+
+.images {
+	padding: 15px;
+	display: flex;
+	flex-flow: wrap;
+	justify-content: space-around;
+	width: 380px;
+	&__general {
+		width: 100px;
+		height: 50px;
+		border-radius: 5px;
+		margin: 2px 2px;
+		background-size: 100px 50px;
+	}
+}
+.one {
+	background-image: url(/img/1140265.jpg);
+}
+.two {
+	background-image: url(/img/1350-voda-bereg-poberezhe-more-zakat-1440x900.jpg);
+}
+.three {
+	background-image: url(/img/fbdbsb.jpg);
+}
+.four {
+	background-image: url(/img/images.jpg);
+}
+.five {
+	background-image: url(/img/jgff.jpg);
+}
+.six {
+	background-image: url(/img/luxfon.com-6469.jpg);
+}
+.seven {
+	background-image: url(/img/ono-uzhasy-kloun-penevaiz-2017-kino-sharik-plashch.jpg);
+}
+.eight {
+	background-image: url(/img/thn.jpg);
+}
+.nine {
+	background-image: url(/img/xvbtgrt.jpg);
+}
+
+.files {
+	padding: 15px;
+}
+
+.sign-in-title {
+	justify-content: center;
+	font-size: 25px;
+	font-weight: bold;
+
+
+	line-height: 40px;
+	width: 380px;
+	border-bottom: solid 1px rgb(241, 241, 241);
+
+}
+.sign-in-content {
+
+	padding: 0px 15px;
+	display: flex;
+	flex-flow: column;
+
+	&__enter {
+		line-height: 35px;
+		padding-left: 5px;
+	}
+	&__value-text {
+		font-size: 13px;
+	}
+
+	&__enter,
+	&__btn {
+		margin: 15px 0px 0px 0px;
+		border-radius: 5px;
+		border-width: 1px;
+		outline: none;
+		// border-color: orangered;
+		// box-shadow: 0px 0px 10px dodgerblue;
+	}
+
+	&__btn {
+		margin: 15px 0px 25px 0px;
+		line-height: 35px;
+		font-size: 15px;
+	}
+}
+
+
+
+
+
+
+.delete {
+	display: none;
+}

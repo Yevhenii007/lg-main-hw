@@ -1,0 +1,1432 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.container {
+  width: 100%;
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+.share__container {
+  background: url(../img/Header.png);
+  width: 100%;
+  max-width: 1440px;
+  height: 100%;
+  max-height: 445px;
+  padding: 45px 0 210px 0;
+}
+
+.share__top {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row;
+          flex-flow: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: stretch;
+      -ms-flex-align: stretch;
+          align-items: stretch;
+  -ms-flex-line-pack: stretch;
+      align-content: stretch;
+  width: 100%;
+  max-width: 1040px;
+  margin: 0 auto;
+}
+
+.share__logo {
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  color: #ffffff;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 24px;
+  margin-left: 50px;
+}
+
+.share__account {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.share__log-in {
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  color: #ffffff;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 36px;
+  text-decoration: none;
+  width: 45px;
+}
+
+.share__sign-up {
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  color: #ffffff;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 32px;
+  text-decoration: none;
+  height: 100%;
+  max-height: 32px;
+  width: 55px;
+  border: 2px solid #ffffff;
+  border-radius: 40px;
+  padding: 0 16px;
+  margin-left: 19px;
+  margin-right: 50px;
+}
+
+.share__title {
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  color: #ffffff;
+  font-weight: bold;
+  font-size: 52px;
+  line-height: 63px;
+  text-align: center;
+  max-width: 470px;
+  margin: 153px auto 0;
+}
+
+.share__text {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  color: #f7f3f2;
+  font-weight: 300;
+  font-size: 24px;
+  line-height: 24px;
+  text-align: center;
+  margin-top: 30px;
+}
+
+.share__button {
+  margin-top: 33px;
+  text-align: center;
+}
+
+.share__button-a {
+  background: #ff4e50;
+  border-radius: 40px;
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  color: #ffffff;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 40px;
+  text-decoration: none;
+  width: 225px;
+  padding: 10px 20px;
+}
+
+.description {
+  padding: 0 10px;
+}
+
+.description__container {
+  width: 100%;
+  max-width: 940px;
+  height: 100%;
+  margin: 0 auto;
+}
+
+.description__how {
+  width: 100%;
+}
+
+.description__title {
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  color: #444444;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 32px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column;
+          flex-flow: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 95px auto 0;
+  text-align: center;
+}
+
+.description__meet {
+  width: 100%;
+}
+
+.description__img {
+  position: relative;
+}
+
+.description__img-bg {
+  border-radius: 50%;
+  max-width: 120px;
+  height: 120px;
+}
+
+.description__icon-bg {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row;
+          flex-flow: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-line-pack: stretch;
+      align-content: stretch;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 32px;
+  height: 32px;
+  border: 2px solid #ffffff;
+  border-radius: 50%;
+}
+
+.description__icon-music {
+  background: #ff4e50;
+}
+
+.description__icon-brush {
+  background: #19d4ca;
+}
+
+.description__icon-camera {
+  background: #ffa710;
+}
+
+.description__icon-airplane {
+  background: #667df3;
+}
+
+.description__discover {
+  width: 100%;
+}
+
+.how__row {
+  width: 100%;
+  margin-top: 35px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row;
+          flex-flow: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: stretch;
+      -ms-flex-align: stretch;
+          align-items: stretch;
+  -ms-flex-line-pack: stretch;
+      align-content: stretch;
+}
+
+.how__column-first {
+  background-image: url(../img/how/Step-1-image.png);
+  width: 100%;
+  max-width: 250px;
+  height: 350px;
+  padding: 25px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column;
+          flex-flow: column;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  -webkit-box-align: stretch;
+      -ms-flex-align: stretch;
+          align-items: stretch;
+  -ms-flex-line-pack: stretch;
+      align-content: stretch;
+}
+
+.how__column-midle {
+  background-image: url(../img/how/Step-2-image.png);
+  width: 100%;
+  max-width: 250px;
+  height: 350px;
+  padding: 25px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column;
+          flex-flow: column;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  -webkit-box-align: stretch;
+      -ms-flex-align: stretch;
+          align-items: stretch;
+  -ms-flex-line-pack: stretch;
+      align-content: stretch;
+  margin-left: 20px;
+}
+
+.how__column-last {
+  background-image: url(../img/how/Step-3-image.png);
+  width: 100%;
+  max-width: 250px;
+  height: 350px;
+  padding: 25px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column;
+          flex-flow: column;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  -webkit-box-align: stretch;
+      -ms-flex-align: stretch;
+          align-items: stretch;
+  -ms-flex-line-pack: stretch;
+      align-content: stretch;
+  margin-left: 20px;
+}
+
+.how__step {
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  color: #ffffff;
+  font-weight: normal;
+  font-size: 10px;
+  line-height: 20px;
+  width: 70px;
+  background: #ff4e50;
+  border-radius: 40px;
+  letter-spacing: 2px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row;
+          flex-flow: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-line-pack: stretch;
+      align-content: stretch;
+}
+
+.how__title {
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  color: #ffffff;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 29px;
+  margin-top: 19px;
+}
+
+.how__text {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  color: #e3e3e3;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 14px;
+  margin-top: 21px;
+}
+
+.meet__row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row;
+          flex-flow: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: stretch;
+      -ms-flex-align: stretch;
+          align-items: stretch;
+  -ms-flex-line-pack: stretch;
+      align-content: stretch;
+  margin-top: 35px;
+  margin-left: -20px;
+}
+
+.meet__row-first {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row;
+          flex-flow: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: stretch;
+      -ms-flex-align: stretch;
+          align-items: stretch;
+  -ms-flex-line-pack: stretch;
+      align-content: stretch;
+}
+
+.meet__row-second {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row;
+          flex-flow: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: stretch;
+      -ms-flex-align: stretch;
+          align-items: stretch;
+  -ms-flex-line-pack: stretch;
+      align-content: stretch;
+}
+
+.meet__column {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column;
+          flex-flow: column;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-line-pack: stretch;
+      align-content: stretch;
+  width: 100%;
+  max-width: 221px;
+  margin-left: 20px;
+}
+
+.meet__title {
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  color: #444444;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 17px;
+  margin: 18px;
+  text-align: center;
+}
+
+.meet__text {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  color: #666666;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 14px;
+  text-align: center;
+}
+
+.meet__button {
+  margin: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row;
+          flex-flow: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-line-pack: stretch;
+      align-content: stretch;
+  width: 180px;
+  background: #ffffff;
+  border: 2px solid #ff4e50;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border-radius: 40px;
+  margin-top: 35px;
+}
+
+.meet__button-a {
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  color: #ff4e50;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 36px;
+  text-decoration: none;
+}
+
+.discover__img {
+  margin-top: 35px;
+  height: 970px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-flow: wrap;
+      flex-flow: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: stretch;
+      -ms-flex-align: stretch;
+          align-items: stretch;
+  -ms-flex-line-pack: justify;
+      align-content: space-between;
+}
+
+.discover__sport-text {
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  color: #ffffff;
+  font-weight: bold;
+  font-size: 22px;
+  line-height: 27px;
+  text-align: center;
+}
+
+.discover__img-first {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row;
+          flex-flow: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: stretch;
+      -ms-flex-align: stretch;
+          align-items: stretch;
+  -ms-flex-line-pack: stretch;
+      align-content: stretch;
+}
+
+.discover__img-second {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row;
+          flex-flow: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: stretch;
+      -ms-flex-align: stretch;
+          align-items: stretch;
+  -ms-flex-line-pack: stretch;
+      align-content: stretch;
+}
+
+.discover__img-third {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row;
+          flex-flow: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: stretch;
+      -ms-flex-align: stretch;
+          align-items: stretch;
+  -ms-flex-line-pack: stretch;
+      align-content: stretch;
+}
+
+.discover__img-bg-sports {
+  background-image: url(../img/sport/Sport-1.png);
+  width: 100%;
+  max-width: 300px;
+  height: 310px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row;
+          flex-flow: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-line-pack: stretch;
+      align-content: stretch;
+}
+
+.discover__img-bg-wellness {
+  background-image: url(../img/sport/Sport-2.png);
+  width: 100%;
+  max-width: 300px;
+  height: 310px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row;
+          flex-flow: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-line-pack: stretch;
+      align-content: stretch;
+  margin-left: 20px;
+}
+
+.discover__img-bg-extreme {
+  background-image: url(../img/sport/Sport-3.png);
+  width: 100%;
+  max-width: 300px;
+  height: 310px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row;
+          flex-flow: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-line-pack: stretch;
+      align-content: stretch;
+  margin-left: 20px;
+}
+
+.discover__img-bg-games {
+  background-image: url(../img/sport/Sport-4.png);
+  width: 100%;
+  max-width: 300px;
+  height: 310px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row;
+          flex-flow: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-line-pack: stretch;
+      align-content: stretch;
+}
+
+.discover__img-bg-culture {
+  background-image: url(../img/sport/Sport-5.png);
+  width: 100%;
+  max-width: 620px;
+  height: 310px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row;
+          flex-flow: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-line-pack: stretch;
+      align-content: stretch;
+  margin-left: 20px;
+}
+
+.discover__img-bg-enjoyment {
+  background-image: url(../img/sport/Sport-6.png);
+  width: 100%;
+  max-width: 620px;
+  height: 310px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row;
+          flex-flow: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-line-pack: stretch;
+      align-content: stretch;
+}
+
+.discover__img-bg-trevelling {
+  background-image: url(../img/sport/Sport-7.png);
+  width: 100%;
+  max-width: 300px;
+  height: 310px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row;
+          flex-flow: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-line-pack: stretch;
+      align-content: stretch;
+  margin-left: 20px;
+}
+
+.create {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column;
+          flex-flow: column;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-line-pack: stretch;
+      align-content: stretch;
+}
+
+.create__text {
+  margin-top: 45px;
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  color: #666666;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 24px;
+}
+
+.create__another {
+  margin: 25px 0 100px 0;
+  text-align: center;
+  width: 550px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.create__input {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  color: #999999;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 40px;
+  width: 100%;
+  max-width: 299px;
+  background: #ffffff;
+  border: 1px solid #d4d4d4;
+  -webkit-box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.073313);
+          box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.073313);
+  border-radius: 3px;
+  padding-left: 20px;
+}
+
+.create__button {
+  width: 172px;
+  background: #ff4e50;
+  border-radius: 40px;
+  margin-left: 20px;
+}
+
+.create__button-a {
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  color: #ffffff;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 40px;
+  text-decoration: none;
+  text-align: center;
+}
+
+.common-info {
+  border-top: 2px solid #ff4e50;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row;
+          flex-flow: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: stretch;
+      -ms-flex-align: stretch;
+          align-items: stretch;
+  -ms-flex-line-pack: stretch;
+      align-content: stretch;
+  padding: 0 10px;
+}
+
+.common-info__container {
+  width: 100%;
+  max-width: 940px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row;
+          flex-flow: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: stretch;
+      -ms-flex-align: stretch;
+          align-items: stretch;
+  -ms-flex-line-pack: stretch;
+      align-content: stretch;
+}
+
+.common-info__row {
+  margin: 35px 0;
+  width: 100%;
+  max-width: 545px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row;
+          flex-flow: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: stretch;
+      -ms-flex-align: stretch;
+          align-items: stretch;
+  -ms-flex-line-pack: stretch;
+      align-content: stretch;
+}
+
+.common-info__logo {
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  color: #ff4e50;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 20px;
+}
+
+.common-info__a {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  color: #999999;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 26px;
+  text-decoration: none;
+}
+
+.common-info__title {
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  color: #444444;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 17px;
+  margin-bottom: 10px;
+}
+
+.common-info__areto {
+  margin: 35px 0 0 30px;
+}
+
+.common-info__designed {
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  color: #cccccc;
+  font-weight: bold;
+  font-size: 10px;
+  line-height: 12px;
+  text-align: right;
+  letter-spacing: 1px;
+  margin-bottom: 7px;
+}
+
+@media (max-width: 600px) {
+  .share__container {
+    background: url(../img/small/Header_small.png);
+    max-width: 890px;
+    max-height: 365px;
+    padding: 22px 0 153px 0;
+  }
+  .share__top {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-flow: column-reverse;
+            flex-flow: column-reverse;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -ms-flex-line-pack: stretch;
+        align-content: stretch;
+    max-width: 155px;
+    height: 155px;
+  }
+  .share__logo {
+    margin-left: 0;
+  }
+  .share__sign-up {
+    margin-right: 0;
+  }
+  .share__title {
+    font-family: "Montserrat", sans-serif;
+    font-style: normal;
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 37px;
+    max-width: 272px;
+    margin: 25px auto 0;
+  }
+  .share__text {
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+    color: #f7f3f2;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 24px;
+    max-width: 272px;
+    margin: 5px auto 0;
+  }
+  .share__button {
+    margin-top: 15px;
+  }
+  .share__button-a {
+    padding: 10px 45px;
+  }
+  .description__title {
+    font-family: "Montserrat", sans-serif;
+    font-style: normal;
+    color: #444444;
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 27px;
+    margin: 35px auto 0;
+  }
+  .how__row {
+    margin-top: 15px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: column;
+            flex-flow: column;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -ms-flex-line-pack: stretch;
+        align-content: stretch;
+  }
+  .how__column-first {
+    background-image: url(../img/small/how/Step-1-small.png);
+    width: 100%;
+    max-width: 245px;
+    height: 225px;
+    padding: 0 30px 15px 25px;
+    margin: auto;
+  }
+  .how__column-midle {
+    background-image: url(../img/small/how/Step-2-small.png);
+    width: 100%;
+    max-width: 245px;
+    height: 225px;
+    padding: 0 30px 15px 25px;
+    margin: 10px auto 0;
+  }
+  .how__column-last {
+    background-image: url(../img/small/how/Step-3-small.png);
+    width: 100%;
+    max-width: 245px;
+    height: 225px;
+    padding: 0 30px 15px 25px;
+    margin: 10px auto 0;
+  }
+  .meet__row {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-flow: wrap;
+        flex-flow: wrap;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: stretch;
+        -ms-flex-align: stretch;
+            align-items: stretch;
+    -ms-flex-line-pack: stretch;
+        align-content: stretch;
+    margin: 35px auto 0;
+  }
+  .meet__column_marg-top {
+    margin-top: 35px;
+  }
+  .create__another {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: column;
+            flex-flow: column;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -ms-flex-line-pack: stretch;
+        align-content: stretch;
+  }
+  .create__button {
+    margin: 20px 0 0;
+    padding: 0 55px;
+  }
+  .create__input {
+    width: 100%;
+    max-width: 260px;
+  }
+  .common-info__container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: column;
+            flex-flow: column;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: stretch;
+        -ms-flex-align: stretch;
+            align-items: stretch;
+    -ms-flex-line-pack: stretch;
+        align-content: stretch;
+  }
+  .common-info__row {
+    margin: 20px 0 0 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: column;
+            flex-flow: column;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -ms-flex-line-pack: stretch;
+        align-content: stretch;
+  }
+  .common-info__column {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-flow: wrap;
+        flex-flow: wrap;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    -webkit-box-align: stretch;
+        -ms-flex-align: stretch;
+            align-items: stretch;
+    -ms-flex-line-pack: stretch;
+        align-content: stretch;
+    max-width: 190px;
+  }
+  .common-info__title {
+    font-family: "Montserrat", sans-serif;
+    font-style: normal;
+    color: #444444;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 17px;
+    margin: 10px 0 0 0;
+    text-align: center;
+  }
+  .common-info__areto {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: column;
+            flex-flow: column;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -ms-flex-line-pack: stretch;
+        align-content: stretch;
+    margin: 15px 0 22px 0;
+  }
+  .common-info__designed {
+    font-family: "Montserrat", sans-serif;
+    font-style: normal;
+    color: #cccccc;
+    font-weight: bold;
+    font-size: 10px;
+    line-height: 12px;
+    text-align: right;
+    letter-spacing: 1px;
+    margin-bottom: 7px;
+  }
+}
+
+@media (max-width: 320px) {
+  .meet__row {
+    margin-left: 0;
+    margin-top: 0;
+  }
+  .meet__row-first {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-flow: wrap;
+        flex-flow: wrap;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: stretch;
+        -ms-flex-align: stretch;
+            align-items: stretch;
+    -ms-flex-line-pack: stretch;
+        align-content: stretch;
+  }
+  .meet__row-second {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-flow: wrap;
+        flex-flow: wrap;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: stretch;
+        -ms-flex-align: stretch;
+            align-items: stretch;
+    -ms-flex-line-pack: stretch;
+        align-content: stretch;
+  }
+  .meet__column {
+    margin-left: 0;
+    margin-top: 16px;
+  }
+}
+
+@media (max-width: 480px) {
+  .discover__img {
+    margin-top: 35px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: column;
+            flex-flow: column;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: stretch;
+        -ms-flex-align: stretch;
+            align-items: stretch;
+    -ms-flex-line-pack: stretch;
+        align-content: stretch;
+    height: 100%;
+  }
+  .discover__img-first {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: column;
+            flex-flow: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -ms-flex-line-pack: stretch;
+        align-content: stretch;
+  }
+  .discover__img-second {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: column;
+            flex-flow: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -ms-flex-line-pack: stretch;
+        align-content: stretch;
+  }
+  .discover__img-third {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: column;
+            flex-flow: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -ms-flex-line-pack: stretch;
+        align-content: stretch;
+  }
+  .discover__img-bg-sports {
+    background-image: url(../img/small/sport/Sport-1.png);
+    width: 100%;
+    max-width: 300px;
+    height: 120px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: row;
+            flex-flow: row;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -ms-flex-line-pack: stretch;
+        align-content: stretch;
+  }
+  .discover__img-bg-wellness {
+    background-image: url(../img/small/sport/Sport-2.png);
+    width: 100%;
+    max-width: 300px;
+    height: 120px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: row;
+            flex-flow: row;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -ms-flex-line-pack: stretch;
+        align-content: stretch;
+    margin: 10px 0 0 0;
+  }
+  .discover__img-bg-extreme {
+    background-image: url(../img/small/sport/Sport-3.png);
+    width: 100%;
+    max-width: 300px;
+    height: 120px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: row;
+            flex-flow: row;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -ms-flex-line-pack: stretch;
+        align-content: stretch;
+    margin: 10px 0 0 0;
+  }
+  .discover__img-bg-games {
+    background-image: url(../img/small/sport/Sport-4.png);
+    width: 100%;
+    max-width: 300px;
+    height: 120px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: row;
+            flex-flow: row;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -ms-flex-line-pack: stretch;
+        align-content: stretch;
+    margin: 10px 0 0 0;
+  }
+  .discover__img-bg-culture {
+    background-image: url(../img/small/sport/Sport-5.png);
+    width: 100%;
+    max-width: 300px;
+    height: 120px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: row;
+            flex-flow: row;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -ms-flex-line-pack: stretch;
+        align-content: stretch;
+    margin: 10px 0 0 0;
+  }
+  .discover__img-bg-enjoyment {
+    background-image: url(../img/small/sport/Sport-6.png);
+    width: 100%;
+    max-width: 300px;
+    height: 120px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: row;
+            flex-flow: row;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -ms-flex-line-pack: stretch;
+        align-content: stretch;
+    margin: 10px 0 0 0;
+  }
+  .discover__img-bg-trevelling {
+    background-image: url(../img/small/sport/Sport-7.png);
+    width: 100%;
+    max-width: 300px;
+    height: 120px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: row;
+            flex-flow: row;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -ms-flex-line-pack: stretch;
+        align-content: stretch;
+    margin: 10px 0 0 0;
+  }
+}
