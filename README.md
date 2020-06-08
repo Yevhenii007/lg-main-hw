@@ -4,7 +4,7 @@
 
 How to create new repository:
 
-0) git init (initialize new repository)
+0) git init "name your repository" (initialize new repository)
 
 1) git add . / git add "file's name" (add all your files which was changed /OR/ only some files which you want)
 
