@@ -6,7 +6,7 @@ How to create new repository:
 
 0) git init "name your repository" (initialize new repository)
 
-1) git add . / git add "file's name" (add all your files which was changed /OR/ only some files which you want)
+1) git add * / git add "file's name" (add all your files which was changed /OR/ only some files which you want)
 
 3) git commit -m "commit's name" (create commit and give it name)
 
@@ -20,7 +20,7 @@ How put new changes in your repository
 
 0) git status (if you want to see what was chanched)
 
-1) git add . / git add "file's name" (add all your files which was changed /OR/ only some files which you want)
+1) git add * / git add "file's name" (add all your files which was changed /OR/ only some files which you want)
 
 2) git status (if you want to see what was chanched)
 
